@@ -1,0 +1,65 @@
+.title {
+	margin: auto;
+}
+
+h1 {
+	width: 200px;
+	margin: auto;
+}
+
+#editor {
+	width: 1000px;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #4e4e4e;
+	border-radius: 8px;
+	background-color: #858383;
+}
+
+#container {
+	display: block;
+	width: 1000px;
+	height: 1000px;
+}
+
+#canvas {
+	display: block;
+	margin: 0 20px 20px 0;
+	border: 1px solid #bbbaba;
+	background-color: rgb(232, 233, 233)
+}
+
+#toolbar {
+	display: inline-block;
+	margin: 20px 0 0;
+}
+
+.color-picker {
+	margin: 20px 0 0;
+	float: right;
+}
+
+#toolbar a {
+	margin-right: 10px;
+	outline: none;
+	color: #000;
+	font: 15px Arial;
+}
+
+#resizer {
+	border: 2px dashed #000;
+}
+
+#tip {
+	padding: 5px;
+	margin: 0;
+	border: 1px solid #000;
+	border-radius: 3px;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5)
+}
+
+#sides {
+	display: inline-block;
+}

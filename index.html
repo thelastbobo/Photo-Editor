@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title class="title">Photo Editor</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="/lib/jquery-ui-1.12.1/jquery-ui.css">
+</head>
+<body>
+	<h1>Photo Editor</h1>
+	<div id="editor">
+		<section id="container">
+				<canvas id="canvas" width="1000" height="1000">I am canvas</canvas>
+		</section>
+		<section id="toolbar">
+			<a id="save" href="#" title="Save">Save</a>
+			<a id="delete" href="#" title="Delete">Delete</a>
+			<a id="resize" href="#" title="Resize">Resize</a>
+			<a id="drawLine" href="#" titile="Draw Line">Draw Line</a>
+			<a id="drawCircle" href="#" titile="Draw Circle">Draw Circle</a>
+			<a id="drawPolygon" href="#" titile="Draw Polygon">Draw Polygon with Sides:</a>			
+		</section>
+		<select id="sides" name="Sides">
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="12">12</option>
+		</select>			
+		<div class="color-picker">
+			<label for="color">Choose color:</label>
+			<input type="color" id="color" value="#000000">
+		</div>
+	</div>
+	<script src="lib/jquery-3.4.1.min.js"></script>
+	<script src="lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
